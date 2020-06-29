@@ -3,7 +3,7 @@ PHP Counos Payment Gateway client
 ### Installing
 Easily install it through Composer:
 ```
-composer require counos-platform/counospay-php
+composer require counos/counospay-php
 ```
 ## Usage
 To use this library, first you must have an Api Key. Go to https://payment.counos.io/account/terminals, then add your terminal and get Api Key.

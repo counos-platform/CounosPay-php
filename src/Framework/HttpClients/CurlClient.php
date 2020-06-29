@@ -25,7 +25,7 @@ class CurlClient implements HttpClient
      */
     private $request;
 
-    private $ssl_verification = true;
+    private $ssl_verification = false;
 
     /**
      * @param RequestBuilder $requestBuilder
@@ -89,9 +89,7 @@ class CurlClient implements HttpClient
 
         if ($this->ssl_verification === false)
         {
-            $options = [
-                CURLOPT_SSL_VERIFYPEER => false,
-            ];
+            $options[CURLOPT_SSL_VERIFYPEER] = false;
         }
 
         if ($this->request->method === RequestMethod::POST)

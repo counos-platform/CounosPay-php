@@ -1,0 +1,19 @@
+{
+  "name": "counos/counospay-php",
+  "description": "CounosPayment Php library",
+  "type": "library",
+  "authors": [
+    {
+      "name": "CounosDev",
+      "email": "dev@counos.io"
+    }
+  ],
+  "require": {},
+  "minimum-stability": "dev",
+  "license": "mit",
+  "autoload": {
+    "psr-4": {
+      "Counos\\CounosPay\\": "src/"
+    }
+  }
+}

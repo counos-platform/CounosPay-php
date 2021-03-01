@@ -34,7 +34,7 @@ try
      * $invoice_id must be unique per invoice, payment gateway uses this id to check the payment status, it can be a string (eg. inv-1, inv-vps-service-125)
      */
     $invoice_id    = 1;
-    $ticker        =  cca; //$_POST['ticker'];
+    $ticker        =  'cca'; //$_POST['ticker'];
     $amount        = 9.99;
     $base_currency = 'USD';
     /**
